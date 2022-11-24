@@ -14,7 +14,7 @@ const app = express();
 
 //app.use(express.static(path.resolve(__dirname, './client/build')));
 //app.use(express.static(path.join(__dirname, 'build')));
-app.use(express.static('public'))
+//app.use(express.static('public'))
 app.use(bodyParser.urlencoded({extendeded: true}))
 app.use(bodyParser.json())
 
